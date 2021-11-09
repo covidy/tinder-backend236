@@ -1,0 +1,21 @@
+{
+  "name": "tinder-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "cript": {
+    "test": "nodemon app",
+    "start": "node server.js"
+  },
+  "author": "",
+  "lisence": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
